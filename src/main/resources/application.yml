@@ -1,0 +1,12 @@
+app:
+  datasource:
+   configure:
+    jdbcUrl: jdbc:oracle:thin:@localhost:1521:XE
+    username: ${user.bd.configure}
+    password: ${password.bd.configure}
+    driverClassName: oracle.jdbc.OracleDriver
+   application:
+    jdbcUrl: jdbc:oracle:thin:@localhost:1521:XE
+    username: ${user.bd.application}
+    password: ${password.bd.application}
+    driverClassName: oracle.jdbc.OracleDriver
